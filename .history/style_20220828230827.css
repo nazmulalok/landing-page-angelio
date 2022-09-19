@@ -1,0 +1,8 @@
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}

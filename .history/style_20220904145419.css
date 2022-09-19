@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 10px 0px;
+    box-shadow: 0 1px 1px 1px #14477e2b;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    /* gap: 20%; */
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #14477E;
+}
+
+li.nav-cta a {
+    background: #008080ad;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 20px 5px;
+}
