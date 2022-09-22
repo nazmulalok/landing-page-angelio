@@ -377,7 +377,7 @@ span.arrow-text:before {
     letter-spacing: 0.4px;
     margin-bottom: 1rem;
     color: #fff;
-    background: var(--primary-color);
+    background: #52a9a9;
     padding: 10px 15px;
     border-radius: 20px 5px;
     border: 2px solid #000;
@@ -401,7 +401,6 @@ span.arrow-text:before {
 .check-list li {
     position: relative;
     padding-left: 25px;
-    margin-bottom: 5px;
 }
 
 .check-list li:before {
@@ -410,5 +409,4 @@ span.arrow-text:before {
     left: 0;
     content: "\f058";
     font-family: 'fontawesome';
-    color: var(--primary-color);
 }

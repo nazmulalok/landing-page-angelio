@@ -348,10 +348,10 @@ span.arrow-text:before {
 
 .service-details-box {
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.78);
-    border-radius: 20px 5px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
-    border: 2px solid rgb(0 0 0 / 63%);
+    background: #ffffffc7;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    border: 2px solid rgb(255 255 255 / 94%);
 }
 
 .main-service-card {
@@ -376,12 +376,7 @@ span.arrow-text:before {
     font-weight: 600;
     letter-spacing: 0.4px;
     margin-bottom: 1rem;
-    color: #fff;
-    background: var(--primary-color);
-    padding: 10px 15px;
-    border-radius: 20px 5px;
-    border: 2px solid #000;
-    text-align: center;
+    color: #000;
 }
 
 .service-details-box .details-heading {
@@ -400,8 +395,7 @@ span.arrow-text:before {
 
 .check-list li {
     position: relative;
-    padding-left: 25px;
-    margin-bottom: 5px;
+    padding-left: 20px;
 }
 
 .check-list li:before {
@@ -410,5 +404,4 @@ span.arrow-text:before {
     left: 0;
     content: "\f058";
     font-family: 'fontawesome';
-    color: var(--primary-color);
 }
