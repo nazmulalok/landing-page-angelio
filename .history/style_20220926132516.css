@@ -432,7 +432,7 @@ span.arrow-text:before {
 }
 
 .secondary-btn {
-    padding: 0.5em 1.2em;
+    padding: 0.8em 1.75em;
     background-color: transparent;
     border-radius: 6px;
     border: 2px solid var(--primary-color);
@@ -440,11 +440,9 @@ span.arrow-text:before {
     position: relative;
     overflow: hidden;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     display: inline-block;
-    text-decoration: none;
-    color: #000;
 }
 
 .secondary-btn::after,
@@ -459,7 +457,7 @@ span.arrow-text:before {
     left: 25%;
     z-index: -1;
     transition: .5s ease-out;
-    background-color: var(--primary-color);
+    background-color: var(--color);
 }
 
 .secondary-btn::before {
@@ -477,16 +475,10 @@ span.arrow-text:before {
 }
 
 .secondary-btn:hover {
-    color: var(--secondary-color);
+    color: var(--color2);
 }
 
 .secondary-btn:active {
     filter: brightness(.7);
     transform: scale(.98);
-}
-
-hr.card-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, #000, #52a9a9, #000);
 }

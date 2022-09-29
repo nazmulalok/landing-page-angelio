@@ -484,9 +484,3 @@ span.arrow-text:before {
     filter: brightness(.7);
     transform: scale(.98);
 }
-
-hr.card-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, #000, #52a9a9, #000);
-}
